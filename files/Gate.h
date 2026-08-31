@@ -11,7 +11,7 @@ public:
     Gate(std::string name, int capacity);
     virtual void reportStatus() override;
     virtual int getCapacity() override;
-    virtual void update(Notice& notice) override;
+    virtual void update(const Notice& notice) override;
     virtual ~Gate() = default;
 };
 

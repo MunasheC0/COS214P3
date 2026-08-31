@@ -11,7 +11,7 @@ public:
     virtual void close() override;
     virtual void reportStatus() override;
     virtual int getCapacity() override;
-    virtual void update(Notice& notice) = 0 override;
+    virtual void update(const Notice& notice) = 0;
     virtual ~EventUnit() = default;
 };
 

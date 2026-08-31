@@ -12,7 +12,7 @@ public:
     virtual void open() override;
     virtual void close() override;
     virtual void reportStatus() override;
-    virtual void update(Notice& notice) override;
+    virtual void update(const Notice& notice) override;
     virtual ~MedicalTeam() = default;
 };
 

@@ -10,7 +10,7 @@ private:
 
 public:
     InfoDesk(std::string name, int capacity);
-    void update(const Notice& notice) override;
+    void update( const Notice& notice) override;
     virtual ~InfoDesk() = default;
 };
 

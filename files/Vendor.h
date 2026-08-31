@@ -10,7 +10,7 @@ private:
 public:
     Vendor(std::string name, int capacity);
     virtual void reportStatus() override;
-    virtual void update(Notice& notice) override;
+    virtual void update(const Notice& notice) override;
     virtual ~Vendor() = default;
 };
 

@@ -19,6 +19,19 @@ void Stage::reportStatus() {
     std::cout << "  -> Performance Paused: " << (isPerformancePaused ? "Yes" : "No") << "\n";
 }
 
-void Stage::update(Notice& notice) {
-    
+void Stage::update(const Notice& notice) {
+    switch (notice.type) {
+        case NoticeType::WEATHER_ALERT:
+        case NoticeType::CLOSE:
+            isPerformancePaused = true;
+            std::cout << "[Stage " << name << "] Performance paused due to notice: " << notice.message << "\n";
+            break;
+        case NoticeType::RESUME:
+        case NoticeType::OPEN:
+            isPerformancePaused = false;
+            std::cout << "[Stage " << name << "] Performance resumed.\n";
+            break;
+        default:
+            break;
+    }
 }

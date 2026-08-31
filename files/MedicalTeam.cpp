@@ -19,6 +19,14 @@ void MedicalTeam::reportStatus() {
     std::cout << "  -> Triage Readiness Level: " << readinessLevel << "/10\n";
 }
 
-void MedicalTeam::update(Notice& notice) {
-    // Task 3 implementation stub
+void MedicalTeam::update(const Notice& notice) {
+    switch (notice.type) {
+        case NoticeType::EVACUATE:
+        case NoticeType::WEATHER_ALERT:
+            readinessLevel = 10;
+            std::cout << "[Medical Team " << name << "] HIGH ALERT: " << notice.message << "\n";
+            break;
+        default:
+            break;
+    }
 }
