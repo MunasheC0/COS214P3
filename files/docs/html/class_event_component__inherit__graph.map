@@ -1,0 +1,21 @@
+<map id="EventComponent" name="EventComponent">
+<area shape="rect" id="Node000001" title="Abstract base for every node in the festival&#39;s event tree; defines the uniform interface shared by si..." alt="" coords="189,5,330,234"/>
+<area shape="rect" id="Node000002" href="$class_event_group.html" title="A group node in the festival tree that holds and manages child components, forwarding every operation..." alt="" coords="140,282,249,511"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="230,246,224,283,219,282,228,252"/>
+<area shape="rect" id="Node000004" href="$class_event_unit.html" title="Abstract base for all single (non&#45;group) festival units, providing the shared default behaviour for o..." alt="" coords="408,303,511,491"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="339,227,411,325,406,325,338,232"/>
+<area shape="rect" id="Node000003" href="$class_relay_group.html" title="A group that also listens for notices and relays them down to the observers among its children." alt="" coords="5,590,114,697"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="134,508,91,591,86,589,131,512"/>
+<area shape="rect" id="Node000005" href="$class_gate.html" title="An entry gate that admits visitors and locks down when told to." alt="" coords="139,570,242,717"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="398,440,327,497,255,561,244,573,240,569,251,557,323,493,394,443"/>
+<area shape="rect" id="Node000006" href="$class_info_desk.html" title="An information desk that relays incoming notices to festival visitors." alt="" coords="266,590,377,697"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="403,500,353,592,349,588,399,503"/>
+<area shape="rect" id="Node000007" href="$class_medical_team.html" title="A medical team whose triage readiness escalates during emergencies rather than shutting down." alt="" coords="401,559,518,727"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="461,504,462,561,458,558,458,508"/>
+<area shape="rect" id="Node000008" href="$class_shuttle_stop.html" title="A shuttle stop whose transit route reacts to schedule changes and safety alerts." alt="" coords="542,580,650,707"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="520,501,564,581,559,579,517,506"/>
+<area shape="rect" id="Node000009" href="$class_stage.html" title="A performance stage that can pause and resume its show in response to notices." alt="" coords="674,559,826,727"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="524,444,664,557,677,571,672,569,661,561,522,449"/>
+<area shape="rect" id="Node000010" href="$class_vendor.html" title="A food/merchandise vendor whose point&#45;of&#45;sale service can be suspended and restored by notices." alt="" coords="851,580,954,707"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="526,413,596,434,677,466,762,506,840,557,863,581,858,579,837,561,759,511,675,470,594,439,526,418"/>
+</map>

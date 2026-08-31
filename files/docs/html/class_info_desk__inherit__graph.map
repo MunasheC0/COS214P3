@@ -1,0 +1,9 @@
+<map id="InfoDesk" name="InfoDesk">
+<area shape="rect" id="Node000001" title="An information desk that relays incoming notices to festival visitors." alt="" coords="99,519,210,626"/>
+<area shape="rect" id="Node000002" href="$class_event_unit.html" title="Abstract base for all single (non&#45;group) festival units, providing the shared default behaviour for o..." alt="" coords="103,282,206,471"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,483,157,520,152,518,153,488"/>
+<area shape="rect" id="Node000003" href="$class_event_component.html" title="Abstract base for every node in the festival&#39;s event tree; defines the uniform interface shared by si..." alt="" coords="5,5,146,234"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,246,128,282,123,282,115,251"/>
+<area shape="rect" id="Node000004" href="$class_event_observer.html" title="Abstract interface for anything that reacts to festival notices." alt="" coords="171,76,298,163"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="218,175,186,283,181,282,216,180"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="RelayGroup" name="RelayGroup">
+<area shape="rect" id="Node000001" title="A group that also listens for notices and relays them down to the observers among its children." alt="" coords="92,559,201,666"/>
+<area shape="rect" id="Node000002" href="$class_event_group.html" title="A group node in the festival tree that holds and manages child components, forwarding every operation..." alt="" coords="21,282,130,511"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,523,132,560,127,559,117,528"/>
+<area shape="rect" id="Node000003" href="$class_event_component.html" title="Abstract base for every node in the festival&#39;s event tree; defines the uniform interface shared by si..." alt="" coords="5,5,146,234"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,247,78,283,73,282,76,252"/>
+<area shape="rect" id="Node000004" href="$class_event_observer.html" title="Abstract interface for anything that reacts to festival notices." alt="" coords="155,354,282,440"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,453,166,561,162,558,197,456"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="EventObserver" name="EventObserver">
+<area shape="rect" id="Node000001" title="Abstract interface for anything that reacts to festival notices." alt="" coords="396,5,523,92"/>
+<area shape="rect" id="Node000002" href="$class_event_unit.html" title="Abstract base for all single (non&#45;group) festival units, providing the shared default behaviour for o..." alt="" coords="343,140,446,328"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="441,104,430,141,425,139,438,108"/>
+<area shape="rect" id="Node000009" href="$class_relay_group.html" title="A group that also listens for notices and relays them down to the observers among its children." alt="" coords="470,181,579,288"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="481,104,509,181,504,180,479,109"/>
+<area shape="rect" id="Node000003" href="$class_gate.html" title="An entry gate that admits visitors and locks down when told to." alt="" coords="5,386,108,534"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="327,261,227,309,172,341,121,378,110,389,106,385,118,374,169,337,225,304,331,257"/>
+<area shape="rect" id="Node000004" href="$class_info_desk.html" title="An information desk that relays incoming notices to festival visitors." alt="" coords="132,407,243,514"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="335,294,257,378,231,409,227,405,254,375,331,297"/>
+<area shape="rect" id="Node000005" href="$class_medical_team.html" title="A medical team whose triage readiness escalates during emergencies rather than shutting down." alt="" coords="268,376,385,544"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="363,340,353,378,349,375,360,344"/>
+<area shape="rect" id="Node000006" href="$class_shuttle_stop.html" title="A shuttle stop whose transit route reacts to schedule changes and safety alerts." alt="" coords="408,397,516,524"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="428,340,446,398,441,396,425,344"/>
+<area shape="rect" id="Node000007" href="$class_stage.html" title="A performance stage that can pause and resume its show in response to notices." alt="" coords="541,376,693,544"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="456,323,460,326,478,342,494,351,530,374,544,387,539,386,527,378,491,356,475,346,456,330,455,329"/>
+<area shape="rect" id="Node000008" href="$class_vendor.html" title="A food/merchandise vendor whose point&#45;of&#45;sale service can be suspended and restored by notices." alt="" coords="717,397,820,524"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="458,325,460,326,493,343,523,351,552,352,581,351,610,349,640,350,672,357,706,374,732,398,727,396,703,379,670,362,639,355,610,354,581,356,552,358,522,356,491,348,457,331,457,330"/>
+</map>

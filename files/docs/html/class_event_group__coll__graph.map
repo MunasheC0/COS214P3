@@ -1,0 +1,5 @@
+<map id="EventGroup" name="EventGroup">
+<area shape="rect" id="Node000001" title="A group node in the festival tree that holds and manages child components, forwarding every operation..." alt="" coords="21,282,130,511"/>
+<area shape="rect" id="Node000002" href="$class_event_component.html" title="Abstract base for every node in the festival&#39;s event tree; defines the uniform interface shared by si..." alt="" coords="5,5,146,234"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,247,78,283,73,282,75,252"/>
+</map>
