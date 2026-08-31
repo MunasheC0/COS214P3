@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.lsdpreferred
+
+# C++ compiled executables and object files
+*.o
+*.out
+*.exe
+main
+a.out
+
+# IDE and Editor folders
+.vscode/
+.idea/
+*.swp
