@@ -23,5 +23,9 @@ void Stage::reportStatus() {
 
 void Stage::update(Notice& notice) {
     // Task 3 implementation stub
+<<<<<<< Updated upstream
+}
+>>>>>>> Stashed changes
+=======
 }
 >>>>>>> Stashed changes
