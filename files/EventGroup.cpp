@@ -58,22 +58,6 @@ int EventGroup::getCapacity() {
     return totalCapacity;
 }
 
-void EventGroup::update(const Notice& notice) {
-    // 1. React locally if needed
-    std::cout << "[EventGroup " << name << "] Processing notice: " << notice.message << "\n";
-    
-    // 2. Cascade down to all child components (Composite pattern propagation)
-    for (EventComponent* child : children) {
-        EventObserver* obs = dynamic_cast<EventObserver*>(child);
-        if (obs) {
-            obs->update(notice);
-        }
-    }
-
-    // 3. Trigger base class notification for any attached observers
-    notify(notice);
-}
-
 EventGroup::~EventGroup() {
     for (EventComponent* child : children) {
         delete child; 

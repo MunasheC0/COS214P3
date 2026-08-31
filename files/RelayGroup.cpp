@@ -13,6 +13,4 @@ void RelayGroup::update(const Notice& notice) {
             obs->update(notice);
         }
     }
-
-    notify(notice);
 }
